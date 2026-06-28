@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"940546116ce95852","type":"text","text":"Thư viện LaTeX 1.0.0","x":-720,"y":-200,"width":250,"height":60,"color":"2"},
+		{"id":"ce4c895ed37d5393","type":"text","text":"Introduction","x":-720,"y":-80,"width":250,"height":60,"color":"6"},
+		{"id":"08ab17cb4035cb60","type":"file","file":"2026/IT-project/LaTeX-Library-project/1.0.0/About.md","x":-1440,"y":-140,"width":600,"height":400},
+		{"id":"a8ab9d97b11bb6da","type":"text","text":"Các phần bài học hiện tại ","x":80,"y":-80,"width":250,"height":60,"color":"6"},
+		{"id":"3afe1a3d98c227c2","type":"text","text":"Trình soạn thảo Overleaf","x":-320,"y":-80,"width":280,"height":60,"color":"4"},
+		{"id":"ff1e46aa1777d88d","type":"text","text":"Mục tiêu của phiên bản 1.0.0 này là sử dụng trình soạn thảo Overleaf thực tuyến để thực hành các lệnh LaTeX. ","x":-320,"y":60,"width":280,"height":260,"color":"5"},
+		{"id":"bf06b09e2d818f82","type":"file","file":"2026/IT-project/LaTeX-Library-project/1.0.0/Readings.md","x":130,"y":140,"width":400,"height":400},
+		{"id":"67a3f3f3e559e038","type":"text","text":"Các bài học cần được bổ sung trong thư viện","x":660,"y":-80,"width":250,"height":60,"color":"6"},
+		{"id":"961f617e6e724826","type":"text","text":"__ Cấu trúc của LaTeX. (phù hợp với lớp tài liệu là letter và article).\n\n__ Đối với một tài liệu mà có nhiều tác giả, bên cạnh đó là thông tin như nơi làm việc hiện tại thì phần `\\author` sẽ được xử lí như thế nào ? (đã xong đại loại vậy).\n\n__ Kiểu chữ (font style), Phông chữ (font family), thay đổi kích cỡ chữ (font size). \n\n__ Môi trường liệt kê có đánh số và ko đánh số có `\\item` có tối đa bao nhiêu mức khi có danh sách lồng là chính nó ? \n\n__ Danh sách mô tả là gì ? Chúng được dùng cho khi nào ? \n\n__ Chú thích (footnote) cuối trang trong tài liệu. \n\n__ Các vấn đề về chèn gồm chèn mục lục, ảnh, bảng, quote, chèn toán học, chèn định lý (bên cạnh đó còn chứng minh, bổ đề, định nghĩa), \n\n__ Nhãn và tham chiếu chéo. \n\n__ Thiết kế đầu trang và chân trang. ","x":910,"y":30,"width":1080,"height":510,"color":"5"},
+		{"id":"faa9dcd6ca4c8e91","type":"text","text":"__ Thư viện này được tạo ra nhằm cố gắng tổng hợp các bài học của LaTeX nhằm giúp người học dễ dàng xác định những bước đi cơ bản khi học về ngôn ngữ đánh dấu này để phục vụ cho công việc của mỗi người dùng. ","x":-1440,"y":340,"width":600,"height":120,"color":"5"}
+	],
+	"edges":[
+		{"id":"88dd693973180e89","fromNode":"940546116ce95852","fromSide":"bottom","toNode":"ce4c895ed37d5393","toSide":"top"},
+		{"id":"cbaac7875a495a14","fromNode":"ce4c895ed37d5393","fromSide":"left","toNode":"08ab17cb4035cb60","toSide":"right"},
+		{"id":"5799277cd8cfee7c","fromNode":"a8ab9d97b11bb6da","fromSide":"bottom","toNode":"bf06b09e2d818f82","toSide":"top"},
+		{"id":"fb34547a3466dee3","fromNode":"ce4c895ed37d5393","fromSide":"right","toNode":"3afe1a3d98c227c2","toSide":"left"},
+		{"id":"d707c3aa8bc5bd9f","fromNode":"3afe1a3d98c227c2","fromSide":"right","toNode":"a8ab9d97b11bb6da","toSide":"left"},
+		{"id":"863452c0644cf2c0","fromNode":"3afe1a3d98c227c2","fromSide":"bottom","toNode":"ff1e46aa1777d88d","toSide":"top"},
+		{"id":"f031e8495ad001a5","fromNode":"a8ab9d97b11bb6da","fromSide":"right","toNode":"67a3f3f3e559e038","toSide":"left"},
+		{"id":"8642912801bafce2","fromNode":"67a3f3f3e559e038","fromSide":"bottom","toNode":"961f617e6e724826","toSide":"left"},
+		{"id":"698d040267f79bb0","fromNode":"08ab17cb4035cb60","fromSide":"bottom","toNode":"faa9dcd6ca4c8e91","toSide":"top"}
+	]
+}

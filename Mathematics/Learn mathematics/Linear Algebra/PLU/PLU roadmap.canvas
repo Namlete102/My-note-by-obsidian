@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"6ad55359f95b2c86","type":"text","text":"Giải hệ ptr bằng phân tích LU \n","x":-520,"y":-360,"width":260,"height":60,"color":"2"},
+		{"id":"beafd52842e2558b","type":"text","text":"Định nghĩa về phân tích LU","x":-170,"y":-360,"width":250,"height":60,"color":"6"},
+		{"id":"1157349c81011e74","type":"text","text":"Định lý về một ma trận vuông cấp n có thể phân tích LU khi và chỉ khi tất cả định thức con chính dẫn đầu của ma trận khác 0","x":-170,"y":160,"width":250,"height":160,"color":"5"},
+		{"id":"be0a2f66a85d8b88","type":"text","text":"Những ma trận không phân tích được Lu sẽ đưa về phân tích PLU","x":240,"y":-390,"width":250,"height":120,"color":"6"},
+		{"id":"711d873049939d5e","type":"text","text":"Định nghĩa ma trận hoán vị","x":240,"y":-160,"width":250,"height":60,"color":"3"},
+		{"id":"15cee9a249d33813","type":"text","text":"Định lý về một ma trận  vuông cấp n đều có thể phân tích PLU.","x":240,"y":160,"width":250,"height":120,"color":"5"},
+		{"id":"b2130a65e371a690","type":"text","text":"Lý thuyết pp biến đổi sơ cấp","x":640,"y":-160,"width":310,"height":80,"color":"3"},
+		{"id":"246c4709997af03e","type":"text","text":"Một cách tổng quát việc một ma trận vuông cấp n phân tích về LU hoặc PLU","x":640,"y":-390,"width":310,"height":120,"color":"6"},
+		{"id":"3dc3d4ecdf4ff012","type":"text","text":"Giải hệ ptr bằng pp phân tích LU hoặc PLU","x":1110,"y":-390,"width":250,"height":120,"color":"6"},
+		{"id":"2299ec7321d29cf0","type":"text","text":"Ta có hệ ptr tt tổng quát \nA . x = B \n Ma trận A phân tích PLU ta được hệ ptr tt tổng quát lúc này: \n L.U . x = P.B\nĐặt U.X = Y hệ ptr tt tổng quát lúc này: \nL.Y = P.B\nGiải hai hệ mới lúc này là: \nU.X = Y và L.Y = P.B","x":1080,"y":160,"width":310,"height":280,"color":"5"},
+		{"id":"287c7bc8bfbde74e","type":"text","text":"Điều kiện đầy và đủ để có ít nhất/vô số/không có phân tích LU ? ","x":-170,"y":420,"width":250,"height":160,"color":"5"},
+		{"id":"a1fc347877a79635","type":"text","text":"Bổ đề về việc định thức P.A sẽ ko làm thay đổi hoán vị bla bla (???)","x":640,"y":360,"width":310,"height":120,"color":"4"},
+		{"id":"c1e1ada53ffd0437","type":"text","text":"Ma trận sơ cấp là gì ? ","x":640,"y":10,"width":310,"height":80,"color":"3"},
+		{"id":"4c392592a675deb6","type":"text","text":"Định lý về ma trận sơ cấp tương ứng với phép biển đổi sơ cấp. \n(nhớ phải chứng minh định lý này)","x":640,"y":160,"width":310,"height":120,"color":"5"},
+		{"id":"b3c085b0c43de77f","type":"text","text":"Định nghĩa về ma trận con chính dẫn đầu","x":-170,"y":-160,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"9ec11f88037a0a0c","fromNode":"6ad55359f95b2c86","fromSide":"right","toNode":"beafd52842e2558b","toSide":"left","label":"(1)"},
+		{"id":"dc7d3a25a5935dd6","fromNode":"be0a2f66a85d8b88","fromSide":"bottom","toNode":"711d873049939d5e","toSide":"top"},
+		{"id":"27a5c4389a451e37","fromNode":"711d873049939d5e","fromSide":"bottom","toNode":"15cee9a249d33813","toSide":"top"},
+		{"id":"6364fa024780a660","fromNode":"246c4709997af03e","fromSide":"bottom","toNode":"b2130a65e371a690","toSide":"top"},
+		{"id":"5b193695153ff5a3","fromNode":"b2130a65e371a690","fromSide":"bottom","toNode":"c1e1ada53ffd0437","toSide":"top"},
+		{"id":"2d6d3647e8b03202","fromNode":"c1e1ada53ffd0437","fromSide":"bottom","toNode":"4c392592a675deb6","toSide":"top"},
+		{"id":"587888a983a21504","fromNode":"246c4709997af03e","fromSide":"right","toNode":"3dc3d4ecdf4ff012","toSide":"left","label":"(4)"},
+		{"id":"69f2b203ab9cf35b","fromNode":"b3c085b0c43de77f","fromSide":"bottom","toNode":"1157349c81011e74","toSide":"top"},
+		{"id":"21a12a1194497806","fromNode":"beafd52842e2558b","fromSide":"right","toNode":"be0a2f66a85d8b88","toSide":"left","label":"(2)"},
+		{"id":"3714c8bf1030e4e8","fromNode":"be0a2f66a85d8b88","fromSide":"right","toNode":"246c4709997af03e","toSide":"left","label":"(3)"},
+		{"id":"726fc69cd31dfe0e","fromNode":"3dc3d4ecdf4ff012","fromSide":"bottom","toNode":"2299ec7321d29cf0","toSide":"top"},
+		{"id":"963dc606f05db71a","fromNode":"1157349c81011e74","fromSide":"bottom","toNode":"287c7bc8bfbde74e","toSide":"top"},
+		{"id":"800fb3f001c35af0","fromNode":"4c392592a675deb6","fromSide":"bottom","toNode":"a1fc347877a79635","toSide":"top"},
+		{"id":"df946c2d5d40c0ec","fromNode":"beafd52842e2558b","fromSide":"bottom","toNode":"b3c085b0c43de77f","toSide":"top"}
+	]
+}

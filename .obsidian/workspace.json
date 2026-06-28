@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "63a6cc55489461b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4feb0abe577c6d74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae8fd6e1b3b82c3e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9c5452cb51dd556",
+    "type": "split",
+    "children": [
+      {
+        "id": "e332152c85c85c2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b4cdd9dd2b96215",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7ef768111c1205d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "96d87d72db6e1c7e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd4e8ec77425a7ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "c580f390c49784c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7acb32149ebbf64b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "259c8b00f0adc892",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "639361a4b067cd65",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4884e706298b2f60",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "05fb885d5ede0a45",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4b4cdd9dd2b96215",
+  "lastOpenFiles": [
+    "My's 2026.md",
+    "Mathematics/Write mathematics/Linear Algebra/Determiant Lewis Carroll/An Elementary Proof of Dodgson's Condensation Method for Calculating Determinants.md",
+    "Mathematics/Write mathematics/Linear Algebra/Bib/Bib.md",
+    "Mathematics/Write mathematics/Linear Algebra/Bib/ANovelProofoftheDesnanot-JacobiDeterminantIdentity.pdf",
+    "Mathematics/Write mathematics/Linear Algebra/Bib/An Elementary Proof of Dodgsons Condensation Method for Calculat.pdf",
+    "Mathematics/Learn mathematics/Linear Algebra/PLU/PLU roadmap.canvas",
+    "Mathematics/Learn mathematics/Linear Algebra/PLU/Giải hệ ptr bằng phân tích PLU.md",
+    "Mathematics/Learn mathematics/Linear Algebra/Linear Equations/Đường đến giải hệ phương trình bằng lý thuyết ma trận.md",
+    "Mathematics/Write mathematics/Linear Algebra/Determiant Lewis Carroll",
+    "Mathematics/Write mathematics/Linear Algebra/Bib",
+    "Mathematics/Learn mathematics/Linear Algebra/PLU",
+    "Mathematics/Learn mathematics/Linear Algebra/Linear Equations",
+    "Mathematics/Learn mathematics/Linear Algebra/Linear Algebra.md",
+    "Mathematics/Write mathematics/Writting.md",
+    "Mathematics/Write mathematics/Linear Algebra",
+    "Mathematics/Learn mathematics/Mathmatics.md",
+    "Mathematics/Learn mathematics/Linear Algebra",
+    "Mathematics/Write mathematics",
+    "Mathematics/Web LaTeX 's Library.md",
+    "Mathematics/Learn mathematics",
+    "Mathematics/Learn and write mathmatics.md",
+    "Learn IT/Git and Github.md",
+    "IT-project/Markdown-Library-project/Writing on GitHub/Markdown-Library-project 1.0.0.md",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/Setnumber.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/Pythagoras.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/Newton.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/Navier-Stokes.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/Leibniz.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/img5.2.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/img5.1.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/img4.1.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/img3.2.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Images/img3.1.jpg",
+    "IT-project/LaTeX-Library-project/1.0.0/Roadmap.canvas",
+    "IT-project/LaTeX-Library-project/1.0.0/Readings.md",
+    "IT-project/LaTeX-Library-project/1.0.0/Question.md",
+    "IT-project/LaTeX-Library-project/1.0.0/LaTeX 1.0.0.md",
+    "IT-project/LaTeX-Library-project/1.0.0/Dictionary (từ LaTeX đến một số chuyên ngành khác).md",
+    "IT-project/LaTeX-Library-project/1.0.0/Diary.md",
+    "IT-project/LaTeX-Library-project/1.0.0/About.md",
+    "IT-project/LaTeX-Library-project/1.0.0/Bib.md",
+    "IT-project/Another-project/LaTeX Theme Web.md",
+    "IT-project/Another-project/MathNoteBook.md",
+    "IT-project/Another-project/Blog nhỏ của Nam.md",
+    "IT-project/IT-project.md"
+  ]
+}
